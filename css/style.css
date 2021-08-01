@@ -1,21 +1,4 @@
-:root {
-    --footer-height: 1.5em;
-}
-
-html {
-    overflow: hidden;
-}
-
-html,
-body {
-    height: 100%;
-}
-
-body {
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
+/* MAKE CHANGES TO CSS IN THIS FILE */
 h1 {
     color: white;
     text-align: center;

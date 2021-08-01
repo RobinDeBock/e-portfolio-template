@@ -1,7 +1,8 @@
 /* Bootstrap originated CSS. 
    This site was originally built with bootstrap.
    Bootstrap applies general CSS in the background.
-   To ensure the exact same look, the effective CSS is copied here. */
+   To ensure the exact same look, the effective CSS is copied here. 
+   DON'T MAKE CHANGES HERE */
 
 .content {
     min-height: 100%;
@@ -49,4 +50,19 @@ body {
 html {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
+}
+
+/* Base site CSS */
+html {
+    overflow: hidden;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
 }
